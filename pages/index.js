@@ -52,7 +52,7 @@ export default function Home() {
             <h1 className="title">
   
   <Link href="/direksiyon/hakkimda">
-    <a>Hakkimda </a>
+    <a>Hakkımda </a>
   </Link>
  </h1>
               </dt>
@@ -76,8 +76,8 @@ export default function Home() {
 
             <h1 className="title">
   
-  <Link href="/direksiyon/coconvos">
-    <a>ingilizce websitesi </a>
+  <Link href="https://john.tal-labs.com/">
+    <a>İngilizce websitesi </a>
   </Link>
 </h1>
 
@@ -179,7 +179,7 @@ export default function Home() {
 
             <h1 className="title">
   
-  <Link href="/direksiyon/tal-labs">
+  <Link href="http://tal-labs.com/">
     <a>tal-labs</a>
   </Link>
 </h1>
@@ -208,7 +208,7 @@ export default function Home() {
 
             <h1 className="title">
   
-  <Link href="/direksiyon/coconvos">
+  <Link href="http://coconvos.com/">
     <a>coconvos</a>
   </Link>
 </h1>
