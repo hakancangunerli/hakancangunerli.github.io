@@ -32,7 +32,7 @@ export default function Home() {
 
 </p>
       <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-      3 senedir eğitim tecrübesi olan 6 senedir yazılım dünyasında bulunan bir mühendislik öğrencisiyim.
+      2 senedir kod eğitim tecrübesi olan 3 senedir profesyonel şekilde yazılım dünyasında bulunan bir yazılım mühendisliği öğrencisiyim.
       </p>
     </div>
 
@@ -57,10 +57,45 @@ export default function Home() {
  </h1>
               </dt>
             <dd class="mt-2 text-base text-gray-500">
-    Is tecrubelerim ve hakkimdaki bilgilere buradan ulasabilirsiniz
+    İş tecrübelerim ve hakkımdaki bilgilere buradan ulaşabilirsiniz
             </dd>
           </div>
         </div>
+
+
+        <div class="flex">
+          <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+              </svg>
+            </div>
+          </div>
+          <div class="ml-4">
+            <dt class="text-lg leading-6 font-medium text-gray-900">
+
+            <h1 className="title">
+  
+  <Link href="/direksiyon/coconvos">
+    <a>ingilizce websitesi </a>
+  </Link>
+</h1>
+
+              
+            </dt>
+            <dd class="mt-2 text-base text-gray-500">
+            ingilizce web siteme buradan ulaşabilirsiniz.
+            
+            </dd>
+          </div>
+        </div>
+
+
+
+
+
+
+
 
         <div class="flex">
           <div class="flex-shrink-0">
@@ -83,36 +118,12 @@ export default function Home() {
               
             </dt>
             <dd class="mt-2 text-base text-gray-500">
-              CV'me buradan ulasabilirsiniz
+              CV'me buradan ulaşabilirsiniz
             </dd>
           </div>
         </div>
 
-        <div class="flex">
-          <div class="flex-shrink-0">
-            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
-          </div>
-          <div class="ml-4">
-            <dt class="text-lg leading-6 font-medium text-gray-900">
 
-            <h1 className="title">
-  
-  <Link href="/direksiyon/arastirmalar">
-    <a>Arastirma raporlarim </a>
-  </Link>
-</h1>
-
-              
-            </dt>
-            <dd class="mt-2 text-base text-gray-500">
-              Pek cok sirkette bulundugum yonetim/liderlik pozisyonlarindan dolayi, startup konularinda kendi gordugum eksiklikleri raporlamaktayim, bu raporlara buradan ulasabilirsiniz.
-            </dd>
-          </div>
-        </div>
 
         <div class="flex">
           <div class="flex-shrink-0">
@@ -127,8 +138,8 @@ export default function Home() {
              
             <h1 className="title">
   
-  <Link href="/direksiyon/tal-labs">
-    <a>tal-labs</a>
+  <Link href="/direksiyon/arastirmalar">
+    <a>Araştırmalarım/Notlarım</a>
   </Link>
 </h1>
 
@@ -137,7 +148,9 @@ export default function Home() {
 
 
             <dd class="mt-2 text-base text-gray-500">
-tal-labs, 6 muhendislik ogrencisinin ortak kurdugu, benim de kuruculuk ve yonetim poziyonuna sahip oldugum bir girisim sirketidir. 
+
+            Pek çok konuda kişinin kendini geliştirmesinin en iyi yolunun araştırma ve bol not alma şekliyle olduğuna inandığım için, kendi notlarımı ve araştırmalarıma buradan ulaşabilirsiniz.
+
 
 
 
@@ -145,12 +158,104 @@ tal-labs, 6 muhendislik ogrencisinin ortak kurdugu, benim de kuruculuk ve yoneti
             </dd>
           </div>
         </div>
+
+
+
+
+
+
+
+
+        <div class="flex">
+          <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+          </div>
+          <div class="ml-4">
+            <dt class="text-lg leading-6 font-medium text-gray-900">
+
+            <h1 className="title">
+  
+  <Link href="/direksiyon/tal-labs">
+    <a>tal-labs</a>
+  </Link>
+</h1>
+
+              
+            </dt>
+            <dd class="mt-2 text-base text-gray-500">
+            tal-labs, 6 muhendislik ogrencisinin ortak kurdugu, benim de kuruculuk ve yonetim poziyonuna sahip oldugum bir girisim sirketidir.             </dd>
+          </div>
+        </div>
+
+
+
+      
+
+        <div class="flex">
+          <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+          </div>
+          <div class="ml-4">
+            <dt class="text-lg leading-6 font-medium text-gray-900">
+
+            <h1 className="title">
+  
+  <Link href="/direksiyon/coconvos">
+    <a>coconvos</a>
+  </Link>
+</h1>
+
+              
+            </dt>
+            <dd class="mt-2 text-base text-gray-500">
+            Coconvos, üniversite öğrencilerinin ve davranışsal veri işlemenin yardımıyla üniversiteye başvuranların uygun kolejlerini daha iyi belirlemelerine yardımcı olan bir platformdur.             </dd>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
       </dl>
     </div>
   </div>
 </div>
 
     
+
+        
+
+
+
+
+
+
+
+
 
         
 
